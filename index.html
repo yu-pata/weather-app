@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>天気予報アプリ</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div>
+    <h1>天気予報アプリ</h1>
+    <input type="text" id="cityInput" placeholder="都市名を入力">
+    <button id="getWeather">天気を表示</button>
+    <div id="weatherResult">
+        <!-- 天気データがここに表示されます -->
+    </div>
+    <!-- キャンバスを追加 -->
+    <div>
+        <canvas id="weeklyWeatherChart" width="400" height="200"></canvas>
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
